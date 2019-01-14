@@ -34,6 +34,7 @@ public class LocationController {
     @ResponseBody
     @RequestMapping("test")
     public String test() {
+        System.out.println("我爱你");
         return "success";
     }
 }
