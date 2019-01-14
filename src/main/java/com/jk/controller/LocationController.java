@@ -34,6 +34,7 @@ public class LocationController {
     @ResponseBody
     @RequestMapping("test")
     public String test() {
+        System.out.println("本地提交");
         System.out.println("我好开心啊");
         System.out.println("我爱你");
         return "success";
